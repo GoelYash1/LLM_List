@@ -44,13 +44,13 @@ const ModelCard = ({ model }) => {
         </div>
         <div className="mb-4 mx-auto flex flex-col sm:flex-row justify-between w-4/5 gap-1 sm:justify-between">
           <button
-            className="text-green-500 bg-gray-700 p-3 rounded-md w-1/2 focus:outline-none mb-2 sm:mb-0"
+            className="text-green-500 bg-gray-700 p-3 rounded-md w-full sm:w-1/2 focus:outline-none mb-2 sm:mb-0"
             onClick={toggleModal}
           >
             Snippet
           </button>
           <button
-            className="text-green-500 bg-gray-700 p-3 rounded-md w-1/2 focus:outline-none ml-0 sm:ml-3"
+            className="text-green-500 bg-gray-700 p-3 rounded-md w-full sm:w-1/2 focus:outline-none ml-0 sm:ml-3"
             onClick={() => navigate(`/model/${model._id}`)}
           >
             More Details
